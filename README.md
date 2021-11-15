@@ -93,10 +93,11 @@ echo '{ "sender-email":"<approved-sender-email>", "sender-name":"<sender-name>",
 ```
 e.g.:
 ```
-echo '{ "sender-email":"no-reply@oracle.com", "sender-name":"Test", "recipient":"gregory.verstraeten@oracle.com",
-"subject":"Hello!", "body":"This is a test email" }' | fn invoke myapp oci-email-send-python
+echo '{ "sender-email":"ansh@mushop.com", "sender-name":"Test", "recipient":"anshuman.p.panda@oracle.com", "subject":"Hello!", "body":"This is a test email" }' | fn invoke ansh-oci-send-email oci-email-send-python
 ```
 
 Upon success, the function will return "Email successfully sent!" and the recipient will receive an email.
 
+![Send Email from cloud shell](./images/22.png)
 
+![Recieved Email](./images/21.png)
