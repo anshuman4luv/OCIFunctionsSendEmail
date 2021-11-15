@@ -101,3 +101,10 @@ Upon success, the function will return "Email successfully sent!" and the recipi
 ![Send Email from cloud shell](./images/22.png)
 
 ![Recieved Email](./images/21.png)
+
+## Setting Up API Gateway
+- Navigate to Developer Services click on Gateways under API Management and Create Gateway. Give it a name and put it in a Public Subnet (or Private, depending on your use case)
+
+![Navigate To Api Gateway](./images/14.png)
+
+![Creating Api Gateway](./images/15.png)
